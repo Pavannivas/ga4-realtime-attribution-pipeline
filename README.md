@@ -47,10 +47,16 @@ real_time_attribution_project
 │   └── app.py
 └── database_connection/          # Database connection helpers
     └── Db_Connector.py
-
 ```
+
+**🧹Note on Repo Hygiene**
+> - Python cache directories (`__pycache__/`) are excluded via `.gitignore`.  
+> - Local data files (`data/*.csv`) are ignored to keep the repo lightweight.  
+> - Only reproducible source code, dbt models, and scripts are versioned.  
 ---
-## ⚙️ Components Overview
+
+## ⚙️Components Overview
+
 
 |  **Component**              | **Purpose**                                                         |
 | ---------------------- | --------------------------------------------------------------- |
