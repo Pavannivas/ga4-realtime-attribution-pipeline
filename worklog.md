@@ -18,5 +18,7 @@
 
 ### Day3
 - Added worklog.md
-- Prepared demo video and git history review.
+- Added requirements and helper scripts (main.py)
+- Added database connection helper (Db_Connector.py)
+- Finalized end-to-end project and integrated all modules.
 
